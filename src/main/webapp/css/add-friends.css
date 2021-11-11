@@ -1,0 +1,169 @@
+.headContent {
+    width: 100%;
+    height: 100px;
+    /*background-color: rgb(81, 183, 236);*/
+    margin-bottom: 100px;
+    line-height: 100px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(245, 254, 255);
+}
+
+.icon {
+    height: 80px;
+    margin-left: 100px;
+}
+
+.inputBar1 {
+    display: flex;
+    justify-content: center;
+}
+.inputBar2 {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group {
+    width: 600px;
+}
+
+.newfoot {
+    margin-top: 170px;
+    width: 100%;
+    height: 300px;
+    padding-top: 34px;
+    background: #2a2a2a;
+    font-size: 0.75em;
+}
+
+.plats h3 {
+    height: 50px;
+    color: #666;
+    font-size: 14px;
+}
+
+.plats a.plmb {
+    width: 80px;
+    margin-right: 35px;
+    background-position: 0px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #979797;
+}
+a:hover {
+    text-decoration: none;
+    color: #979797;
+}
+h3 {
+    height: 25px;
+    color: #666;
+    font-size: 14px;
+}
+li {
+    line-height: 22px;
+}
+.copyright {
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 16px;
+    border-top: 1px solid #666;
+    line-height: 17px;
+    text-align: center;
+    color: #666;
+}
+.qmaps {
+    width: 960px;
+    height: 170px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.qac {
+    width: 185px;
+}
+
+.qfaq {
+    width: 175px;
+}
+.subtitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.addNew {
+    color: #666666;
+    font-size: 20px;
+
+
+}
+ul {
+    padding-left: 10px;
+}
+#exit {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/background.jpg") ;
+    -moz-background-image: url("../img/background.jpg");// 添加图片路径
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+.el-button--primary:hover {
+    color: #ffffff;
+}
+.el-button--success:hover {
+    color: #ffffff;
+}
+.el-button--info:hover {
+    color: #ffffff;
+}
+.el-button--danger:hover {
+    color: #ffffff;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow:none;
+    color: #ffffff;
+}
+#container {
+    width: 600px;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 2px 2px #d6d9e2;
+}
+.input-group {
+    margin-bottom: 20px;
+    width: 400px;
+    border-radius: 15px;
+}
+#exitButton {
+    margin-top: 30px;
+    margin-right: 30px;
+    float: right;
+}

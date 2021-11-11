@@ -1,0 +1,120 @@
+.swiper {
+    width: 550px;
+    height: 241px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#total {
+    min-width: 1250px;
+    max-width: 1500px;
+}
+
+body {
+    background-size: cover;
+    margin:0 auto;
+}
+
+#app {
+    cursor: pointer;
+    width: 440px;
+    float: right;
+    margin: 150px 12% 0 0;
+    background-color: #ffffff;
+    padding: 25px 20px;
+    box-shadow:0 3px 3px #c8c8c8 ;
+    -webkit-box-shadow:0 3px 3px #c8c8c8 ;
+    -moz-box-shadow:0 3px 3px #c8c8c8 ;
+    border: 1px solid #EBEEF5;
+}
+
+#caption {
+    float: left;
+    margin: 70px 0px 0px 250px;
+    color: #5e5e5e;
+}
+
+#topTitle {
+    font-size: 60px;
+}
+
+#topTitle2 {
+    font-size: 40px;
+}
+
+.form-group {
+    margin: 19px 50px;
+}
+
+.registerLinkArea{
+    float: right;
+    color: #5e5e5e;
+    margin: 0 50px;
+}
+.registerLink{
+    margin-right: 10px;
+    color: #5e5e5e;
+    font-size: 8px;
+}
+
+#small-caption {
+font-size: 18px;
+margin: 5px 0 10px 50px;
+}
+
+.el-button--success,.el-button--primary:hover {
+    color: #ffffff;
+}
+
+.el-button--success:hover {
+    color: #ffffff;
+}
+
+.el-button--info:hover {
+    color: #ffffff;
+}
+
+.el-button--danger:hover {
+    color: #ffffff;
+}
+
+.el-button--primary:hover {
+    outline:none;
+    filter: chroma(color=#000000);
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow:none;
+    color: #ffffff;
+}

@@ -1,0 +1,106 @@
+.list {
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+}
+.el-button--primary:hover {
+    color: #ffffff;
+}
+.el-button--success:hover {
+    color: #ffffff;
+}
+.el-button--info:hover {
+    color: #ffffff;
+}
+.el-button--danger:hover {
+    color: #ffffff;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow:none;
+    color: #ffffff;
+}
+
+.float-right {
+    float: right;
+    display: inline-block;
+}
+.float-left {
+    float: left;
+    display: inline-block;
+}
+.el-card {
+    -webkit-box-shadow:0 3px 3px #c8c8c8 ;
+    -moz-box-shadow:0 3px 3px #c8c8c8 ;
+    box-shadow:0 3px 3px #c8c8c8 ;
+
+}
+.modal-title {
+    color: #5bc0de;
+}
+.modal-body {
+    padding: 0 25px;
+    height: 50px;
+    line-height: 30px;
+    margin-top: 11px;
+    color: #5bc0de;
+}
+#bar {
+    height: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    -webkit-box-shadow:0 3px 3px #c8c8c8 ;
+    -moz-box-shadow:0 3px 3px #c8c8c8 ;
+    box-shadow:0 3px 3px #c8c8c8 ;
+}
+body {
+    background-image: url("../img/tree.jpg");
+}
+#welcome {
+    padding: 10px;
+    font-size: large;
+    color: #5e5e5e;
+}
+#my {
+    padding: 7px;
+}
+#information {
+    margin: 5px;
+}
+#editModalLabel,#friend {
+    font-weight: bold;
+    color: #8c939d;
+    font-size: 15px;
+}
+#qq,#name {
+    text-align: center;
+}
+.el-button--default:focus,
+.el-button--default.active:focus {
+    color: #0f0f0f;
+}
+.form-control {
+    width: 80%;
+    margin-left: 20%;
+}
+.el-card__header {
+    height: 70px;
+}
+.middle {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#personal,#remark {
+    cursor: pointer;
+}
+#space {
+    height: 10px;
+    display: inline-block;
+    width: 15px;
+}
