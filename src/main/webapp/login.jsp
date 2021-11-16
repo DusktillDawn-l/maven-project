@@ -27,17 +27,15 @@
             <div id="small-caption">
                 登录
             </div>
-            <div>
+            <form action="loginServlet" method="post">
                 <div class="form-group">
-                    <input id="account" type="text" class="form-control" placeholder="请输入帐号" maxlength="10">
+                    <input name="uname" id="account" type="text" class="form-control" placeholder="请输入帐号" maxlength="10">
                 </div>
                 <div class="form-group">
-                    <input id="password" type="password" class="form-control" placeholder="请输入密码" maxlength="10">
+                    <input name="upwd" id="password" type="password" class="form-control" placeholder="请输入密码" maxlength="10">
                 </div>
-            </div>
-            <div>
                 <button class="btn el-button--primary" id="login" style="margin:0 0 3px 50px;color: #ffffff; background-color:#409EFF; width:298px;display: block;">登录</button>
-            </div>
+            </form>
             <div class="registerLinkArea">
                 <a class="registerLink" href="register.jsp">用户注册</a>
                 <a class="registerLink" href="register-merchant.jsp">饭店认证</a>
@@ -59,35 +57,6 @@
                 prevEl: ".swiper-button-prev",
             },
         });
-        var oLogin = document.getElementById("login");
-        oLogin.onclick = function () {
-            var oAccount = document.getElementById("account").value;
-            var oPassword = document.getElementById("password").value;
-            window.oAccount = oAccount;
-            $.ajax ({
-                url: "http://localhost:8080/registerandlogin/user-table/login",
-                type: "POST",
-                dataType: "json",
-                contentType: 'application/json',
-                data: JSON.stringify ({
-                    accountNo: oAccount,
-                    password: oPassword
-                }),
-                success: function(res) {
-                    if (res.code === 0) {
-                        localStorage.setItem ("Account",oAccount);
-                        alert ("登录成功");
-                        window.location.href="friend-list.jsp";
-                    }
-                    else {
-                        alert (res.msg);
-                    }
-                },
-                error: function () {
-                    alert ("登录失败");
-                }
-            });
-        }
     </script>
 </body>
 </html>
