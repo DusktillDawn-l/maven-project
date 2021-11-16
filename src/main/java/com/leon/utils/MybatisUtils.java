@@ -7,7 +7,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.IOException;
 import java.io.InputStream;
-public class MybatisUtils {
+public class MybatisUtils { //这个是创建sqlSession的工具类
     private static SqlSessionFactory sqlSessionFactory;
     static {
         try{

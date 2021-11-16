@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.leon.mapper.adminmapper"> <!--绑定一个指定的mapper接口-->
-    <select id="getAdminList" resultType="com.leon.pojo.Admin">
+    <select id="getAdminList" resultType="com.leon.pojo.Admin">    <!--实现adminmapper接口中的getAdminList方法-->
         select * from takeout.admin
     </select>
 </mapper>
